@@ -421,6 +421,7 @@ case ${generic_target} in
 
   *-*-aout | *-*-scout)			fmt=aout ;;
   *-*-cloudabi*)			fmt=elf em=cloudabi ;;
+  *-*-cloudera*)			fmt=elf em=cloudabi ;;
   *-*-dragonfly*)			fmt=elf em=dragonfly ;;
   *-*-freebsd* | *-*-kfreebsd*-gnu)	fmt=elf em=freebsd ;;
   *-*-generic)				fmt=generic ;;
